@@ -1,0 +1,45 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Maven/Backend
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
+# Node modules (Frontend)
+node_modules/
+**/node_modules/
+package-lock.json
+
+# Environment variables & API Keys
+.env
+*.env
+**/application-local.properties
+
+# Build outputs
+dist/
+build/
+*.jar
+*.war
+
+# Map files
+*.map
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Compiled files
+*.class
+
+# Root level target folder
+target/
